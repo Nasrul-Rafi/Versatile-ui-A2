@@ -330,3 +330,142 @@ header{
     border-radius: 18px;
     
 }
+
+/* Team related Style */
+
+.team{
+    margin-top: 100px;
+    text-align: center;
+}
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.team-des{
+    font-size: 0.875rem;
+    font-weight: 400;
+
+}
+
+.team-img{
+    margin-top: 50px;
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background-color: var(--secondary-bg-clr);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+
+}
+
+.member{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    
+}
+.member img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.member-name{
+    margin-top: -90px;
+       
+}
+
+.name,.resignation{
+    text-align: left;
+    margin: 0;
+    margin-left: 20px;
+}
+.name{
+    margin-top:30px ;
+    
+}
+
+  /* BMI calculator Style */
+
+  .calculator-heading{
+    text-align: center;
+}
+
+.Calculator-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.calculator{
+    max-width: 105%;
+    height:488px ;
+    background-color: var(--secondary-bg-clr);
+    margin-top: 90px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+table {
+        
+    border-collapse: collapse;
+        
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid var(--secondary-txt-clr);
+}
+th{
+    color: var(--primary-txt-clr);
+}
+td{
+    color: var(--secondary-txt-clr);
+}
+
+
+.main-calculator {
+    max-width: 100%;
+    margin: 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 283px;
+    height: 48px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 18px;
+    background-color: #555;
+    color: var(--secondary-txt-clr);
+
+}
+
+.calculator-value{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+   
+
+}
+.activity{
+    width: 100%;
+    height: 48px;
+}
+  
