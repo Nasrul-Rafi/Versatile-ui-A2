@@ -590,3 +590,247 @@ input, select {
   .footer-final p{
     text-align: center;
   }
+
+
+  /* Responsive Part Style */
+
+@media screen and (max-width:576px) {
+    .banner,.elements-exercise,.footer-des,.calculator,.for-bg{
+        flex-direction: column;
+    }
+    header{
+        padding: 10px;
+        height: 100%;
+       
+
+    }
+
+    .banner-motive,.banner-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .banner-image{
+        width: 353px;
+        height: 588px;
+        top: 679px;
+    }
+     */
+    
+    .nav-list{
+        visibility: hidden;
+    }
+    
+    .nav-list{
+        width: 20px;
+        height: 15px;
+        background-color: #f0f0f0;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .nav-item{
+        margin: 0;
+    }
+    .box-1{
+        margin-top: -330px;
+        margin-left: 2px;
+    }
+    .box-2{
+        margin-top: -295px;
+        margin-left: 185px;
+        width: 50%;
+    }
+    
+    .btn-section{
+        display: flex;
+    }
+    .btn1, .btn2{
+        padding: 8px 20px;
+
+    }
+    
+    .micon{
+        width: 35px;
+        height: 5px;
+        background-color: var(--primary-txt-clr);
+        margin: 6px 0;
+
+    }
+    .nav-title{
+        width:0%;
+        margin-right: 0;
+    }
+
+
+    .habits{
+        margin-left: 50px;
+        width: 75%;
+        margin-bottom: 20px;
+        
+
+    }
+    .h-title{
+        font-size: 2rem;
+        
+    }
+    .elements-exercise{
+        align-items: center;
+    }
+
+    
+    
+    .run-xtra-mile{
+        position: relative;
+        width: auto;
+        height: auto;
+        left: 20px;
+        top: 788px;
+        left: 0px;
+        display: grid;
+        grid-template-rows: repeat(2,fr);
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: start;
+        margin-left: 0;
+
+        
+        
+      
+        
+    }
+
+    
+
+    .xmile-btn{
+        width: 90%;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        
+    }
+    .xmile-title{
+        font-size: 2rem;
+        padding: 0;
+    }
+    .xmile-left{
+        width: calc(100% - 4px);
+        
+    }
+    .xmile-img{
+        width: calc(100% - 10px);
+        height: calc(100% - 8px);
+    }
+
+    .team{
+        position: absolute;
+        width: 100%;
+        height: 772px;    
+        top: 5050px;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+    .team-title,.team-des{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .team-img{
+        width: 318px;
+        height: 1800px;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        margin-left: 0px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 986px;
+        top: 9900px;
+        padding: 0;
+    }
+
+    .footer-des{
+        width: 100%;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .footer-final{
+        position:absolute;
+        top: 900px;
+        width: 100%;
+        height: 10%;
+    }
+
+    .BMI-Calculator{
+        position: absolute;
+        width: 100%;
+        height:auto;
+        left: 0;
+        top: 3438px;
+    }
+    .calculator-heading{
+        text-align: left;
+        width: 100%;
+        
+    }
+    .calculator{
+        max-width: 100%;
+        height:1088px ;
+        background-color: var(--secondary-bg-clr);
+        margin-top: 90px;
+        margin-bottom: 100px;
+        padding: 0;
+        padding-top: 50px;
+        padding-left: 20px;
+    
+    }
+    .calculator-chart{
+        padding-left: 30px;
+        
+    }
+    input, select {
+        width: 110.5px;
+        height: 48px;
+        padding: 12px 40px 12px 20px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: none;
+        border-radius: 18px;
+        background-color: #555;
+        color: var(--secondary-txt-clr);
+    }
+    .calculator-value{
+        gap: 0px;
+    }
+
+
+    .shop{
+        position: absolute;
+        width: 100%;
+        height: 986px;
+        left: 0;
+        top: 7190px;
+        padding: 0;
+    }
+
+    .shop-items{
+        height: 2000px;
+        border: none;
+    }
+    .more{
+        margin-left: 150px;
+        margin-top: -390px;
+    }
+    .for-bg{
+        margin-left: 20px;
+       align-items: center;
+       justify-content: space-evenly;
+       
+    }
+    
+}
