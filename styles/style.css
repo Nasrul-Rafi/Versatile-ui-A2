@@ -292,3 +292,41 @@ header{
     height: 131px;
     border-radius: 50%;
 }
+
+/* Running Extra mile style */
+
+.run-xtra-mile{
+    width: 1060px;
+    height: 371px;
+    background-color:var(--secondary-bg-clr); 
+    border-radius: 18px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 54px;
+    padding-right: 32px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.xmile-title{
+    margin-bottom: 14px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.xmile-descrip{
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.xmile-left{
+    width: 50%;
+}
+
+.xmile-img img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    
+}
