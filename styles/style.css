@@ -469,3 +469,66 @@ input, select {
     height: 48px;
 }
   
+/* Shop ralated Style */
+
+.shop-upper{
+    text-align: center;
+    
+}
+
+.shop-name{
+    font-family:"Miama";
+    font-size: 5rem;
+    font-weight: 700
+}
+
+.shop-items{
+    max-width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    border: 3px solid var(--secondary-bg-clr);
+    border-radius: 18px;
+
+}
+
+.for-bg{
+    width: 90%;
+    height: 70%;
+    background-color: var(--secondary-bg-clr);
+    margin-top: 100px;
+    margin-left: 70px;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.card{
+    width:250px;
+    height: 250px;
+    border: 1px solid var(p);
+    background-color: #111111; 
+    border-radius: 25px;
+
+}
+
+
+.card p {
+    text-align: center;
+}
+.card img{
+    width: 90%;
+    height: 80%;
+    margin-left: 15px;
+    margin-top: 8px;
+    border-radius: 25px;
+}
+
+.card > button{
+    width: 70%;
+    margin-left: 35px;
+}
+
+.more{
+    margin-top: -60px;
+    margin-left: 1130px;
+}
