@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.inter-primary-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+@font-face {
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+/* Main section Style */
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+/* Shared Style */
+
+:root{
+    --primary-clr:rgb(230, 83, 60);
+    --primary-txt-clr:rgb(255, 255, 255);
+    --secondary-txt-clr:rgba(255, 255, 255, 0.5);
+    --secondary-bg-clr:rgb(34, 34, 34)
+    
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    height: 715px;
+    padding-left: 190px;
+    padding-right: 190px;
+    margin-bottom: 0;
+    
+}
+
+.display-flex{
+    display: flex;
+}
+
+.fbg-clr{
+    background-image: linear-gradient(#111111,#605f5f,#111111);
+}
+
+
+.primary-txt-clr{
+    color: rgb(255, 255, 255);
+}
+.secondary-txt-clr{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.primary-btn{
+    width: 224px;
+    height: 54px;
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background-color: var(--primary-clr);
+    color: var(--primary-txt-clr);
+    font-size: 1.12rem;
+    font-weight: 600;
+    
+}
+
+.secondary-btn{
+    width: 224px;
+    height: 54px;
+    border: 1px solid var(--primary-txt-clr);
+    border-radius: 42px;
+    background-color: #111111;
+    color: var(--primary-txt-clr);
+    font-size: 1.12rem;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+
+
+}
+
+
+
+
+    
+
+
+/*___________________________________________*/
+
+
+/* Navbar Style */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+
+.nav-title,.foot-title{
+    color: var(--primary-clr);
+    font-style: italic;
+    font-size: 2.25rem;
+    margin-right: 500px;
+}
+
+.nav-list{
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    height: 46px;
+    align-items: center;
+    border-radius: 39px;
+    color: var(--primary-txt-clr);
+    padding-left: 2px;
+}
+
+.spcl-nav-item{
+    display: flex;
+    width: 92px;
+    height: 40px;
+    background-color: var(--primary-clr);
+    border-radius: 46px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+/* Banner Style */
+
+.spc-font{
+    font-family: "Miama";
+    font-weight: 400;
+}
+
+.banner-motive{
+    width: 50%;
+    margin-right: 178px;
+}
+
+.bnr-mtv-title{
+    font-weight: 900;
+    font-size: 4.8rem;
+    color: var(--primary-txt-clr);
+    margin-bottom: 28px;
+    margin-top: 50px;
+}
+
+.bnr-mtv-description{
+    color: var(--secondary-txt-clr);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 28px
+
+    
+}
+
+.btn1{
+    margin-right: 20px;
+}
+
+.banner-image{
+    width: 349px;
+    height: 580px;
+}
+.banner-image img{
+    width: 100%;
+}
+
+/* Box related Style */
+
+.boxshape{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-clr);
+    margin-right: 8px;
+   
+
+}
+
+.box-container{
+    flex-direction: column;
+}
+
+.box-1{
+    width: 196px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(34, 34, 34, 0.54);
+    box-shadow: 0px 0px 30px;
+    margin-top: -200px;
+    margin-left: -70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box-2{
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px;
+    margin-top: -350px;
+    margin-left: 245px;
+    
+}
+.box-dig1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--primary-txt-clr);
+}
+.box-text1{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-txt-clr);
+}
+
+.box-dig2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--primary-txt-clr);
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.box-text2{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--secondary-txt-clr);
+}
