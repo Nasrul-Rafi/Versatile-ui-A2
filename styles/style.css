@@ -258,3 +258,37 @@ header{
     font-weight: 400;
     color: var(--secondary-txt-clr);
 }
+
+
+/* Habit Part Style */
+
+.h-title,.h-description{
+    text-align: center;
+}
+
+.h-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habits{
+    width: 1044px;
+    height: 452px;
+    margin-top: 100px;
+    margin-left: 198px;
+}
+
+.elements-exercise{
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+.box{
+    width: 231px;
+    height: 274px;
+}
+
+.elements-exercise img{
+    height: 131px;
+    border-radius: 50%;
+}
